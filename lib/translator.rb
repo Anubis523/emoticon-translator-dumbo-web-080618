@@ -4,7 +4,7 @@ def load_library (file_path)
   # code goes here
   library = {"get_meaning"=>{}, "get_emoticon"=>{}}
   YAML.load_file(file_path).each do |meaning, dict|
-    puts "Meaning: #{meaning} and Dict: #{dict}"
+    # puts "Meaning: #{meaning} and Dict: #{dict}"
     english, japanese = dict
     library["get_emoticon"][english] = japanese
     library["get_meaning"][japanese] = meaning
