@@ -30,6 +30,7 @@ def get_english_meaning (file_path, meaning)
   if meaning
     meaning
   else
+    
   end
 end
 
