@@ -27,6 +27,10 @@ def get_english_meaning (file_path, meaning)
   # code goes here
   library = load_library(file_path)
   meaning = library["get_meaning"][meaning]
+  if meaning
+    meaning
+  else
+  end
 end
 
 # load_library('./emoticons.yml')
